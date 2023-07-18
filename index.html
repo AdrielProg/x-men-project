@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-men</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo X-men" srcset="">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-descricao="Ciclope é um mutante dos X-Men com a
+                habilidade de emitir poderosos raios ópticos de seus olhos, sendo conhecido por seu visor especial
+                que controla sua capacidade">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Personagem Ciclope" >
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-descricao="Uma poderosa mutante telepata e telecinética, Jean Grey é conhecida por sua personalidade compassiva e seu alter ego, a Fênix, que representa sua força e destruição imensuráveis.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey">
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-descricao="Kitty Pryde, também conhecida como Lince Negra, é uma mutante com o poder de se tornar intangível, atravessando objetos sólidos. Ela é ágil, inteligente e uma especialista em hacking, sendo uma valiosa aliada dos X-Men.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-descricao="Ororo Munroe, conhecida como Tempestade, é uma mutante com a habilidade de controlar o clima. Ela é uma líder dos X-Men, com uma personalidade sábia e pacífica, e sua conexão com a natureza a torna uma força formidável.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira" data-descricao="Anna Marie, mais conhecida como Vampira, é uma mutante que pode absorver a energia vital e habilidades de outros seres por meio do toque. Ela lida com o fardo de sua habilidade ao longo de sua jornada e busca controlar seus poderes para o bem.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Personagem Vampira">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine"  data-descricao="Logan, também conhecido como Wolverine, é um mutante com incrível poder de regeneração, garras retráteis de adamantium e sentidos aguçados. Sua natureza feroz e seu passado sombrio moldaram sua personalidade implacável e sua habilidade de combate inigualável.">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto" data-descricao="Erik Lehnsherr, também conhecido como Magneto, é um mutante poderoso com a capacidade de manipular campos magnéticos. Ele é conhecido por sua postura radical em relação aos direitos mutantes e suas tentativas de proteger sua espécie a qualquer custo.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+                <li class="personagem" id="noturno" data-name="Notuno"  data-descricao="Kurt Wagner, conhecido como Noturno, é um mutante com a habilidade de teletransporte e possui uma aparência azul e cauda. Ele é extremamente ágil e sua fé religiosa o guia em suas decisões e ações.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ciclope é um mutante dos X-Men com a
+                    habilidade de emitir poderosos raios ópticos de seus olhos, sendo conhecido por seu visor especial
+                    que controla sua capacidade.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
