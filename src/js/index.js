@@ -1,8 +1,6 @@
 
-//passo 1: 
+ 
 const personagens = document.querySelectorAll('.personagem');
-
-//passo 2: ADC a classe selecionado com a passagem do curso em cima dos elementos LI.
 
 personagens.forEach((person) => {
     person.addEventListener('mouseenter', () => {
@@ -11,12 +9,9 @@ personagens.forEach((person) => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
         removeShadowBox();
-        person.classList.add('selecionado');
-        //alteração do valor da imagem grande pelo valor do ID que ´´e o mesmo nome presente nas fotos 
+        person.classList.add('selecionado');  
         alterarImagemPesonagemSelecionado(person);
-        //pegamos o atributo alterando o nome do personagem na tela 
         alterarNomePersonagem(person);
-        // alterando a descrição: 
         alterarDescricaoPersonagem(person);
 
 
