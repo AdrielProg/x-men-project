@@ -45,10 +45,6 @@ Este projeto é uma ótima maneira de mergulhar no universo dos X-Men enquanto a
 - CSS
 
 ## Contato
+- [![LinkedIn](https://img.shields.io/badge/-LinkedIn-6633CC?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adriel-sousa-80186a241/)
 
-Para mais informações ou dúvidas sobre o projeto, entre em contato:
-
-- Nome: Seu Nome
-- Email: seu@email.com
-
-Esperamos que você aproveite o projeto "X-men Project" tanto quanto nós aproveitamos desenvolvê-lo. Divirta-se explorando o mundo dos X-Men!
+- [![GitHub](https://img.shields.io/badge/-GitHub-333333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AdrielProg)
