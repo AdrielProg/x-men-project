@@ -27,7 +27,7 @@ O código JavaScript interage com a estrutura HTML e o estilo CSS para criar uma
 
 ## Como Usar
 
-Para usar o projeto, siga estas etapas:
+Para usar o [projeto](https://adrielprog.github.io/x-men-project/), siga estas etapas:
 
 1. Clone este repositório em sua máquina local usando `git clone`.
 
