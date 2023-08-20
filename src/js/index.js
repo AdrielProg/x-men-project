@@ -13,8 +13,6 @@ personagens.forEach((person) => {
         alterarImagemPesonagemSelecionado(person);
         alterarNomePersonagem(person);
         alterarDescricaoPersonagem(person);
-
-
     })
 })
 function alterarDescricaoPersonagem(person) {
